@@ -18,6 +18,7 @@ export const CapitulosPage = () => {
             poster={manwha.poster}
             title={manwha.title}
             status={manwha.status}
+            slug={manwha.slug}
           />
         ))}
       </div>

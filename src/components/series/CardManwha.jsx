@@ -1,6 +1,10 @@
 import React from "react";
+import { CardCapitulos } from "../capitulos/CardCapitulos";
+import { CardListCapitulos } from "../common/CardListCapitulos";
+import { usePageTitle } from "../../hooks/usePageTitle";
 
 export const CardManwha = ({ title, poster, views, likes }) => {
+  usePageTitle(` ${title} | Olympus Scanlation`);
   return (
     <div className="flex md:flex-row flex-col md:space-x-8 mt-8">
       <div className="flex flex-col items-center w-full md:max-w-[380px]">
@@ -27,11 +31,21 @@ export const CardManwha = ({ title, poster, views, likes }) => {
           <p className="text-sm text-yellow-500">Responsable Actual</p>
         </div>
       </div>
-      <div className="flex flex-col flex-grow bg-slate-900/60 shadow mt-4 md:mt-0 p-4 rounded-md w-full">
-        <div className="flex space-x-3">
-          <button>Capitulos</button>
-          <button>Sinopsis</button>
-          <button>Comentarios</button>
+      <div className="flex flex-col flex-grow space-y-2 bg-slate-900/60 shadow mt-4 md:mt-0 p-4 rounded-md w-full">
+        <div className="flex justify-center md:justify-normal space-x-3">
+          <button className="btn-active">Capitulos</button>
+          <button className="btn-noactive">Sinopsis</button>
+          <button className="btn-noactive">Comentarios</button>
+        </div>
+        <h1 className="ml-2 pt-12 font-bold text-lg text-white">
+          49 capitulos en total
+        </h1>
+        <div className="grid grid-cols-2">
+          <CardListCapitulos />
+          <CardListCapitulos />
+          <CardListCapitulos />
+          <CardListCapitulos />
+          <CardListCapitulos />
         </div>
       </div>
     </div>

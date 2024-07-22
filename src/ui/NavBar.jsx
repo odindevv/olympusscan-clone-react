@@ -17,7 +17,7 @@ export const NavBar = () => {
       <NavLink
         to={"/"}
         className={({ isActive }) =>
-          "flex space-x-2 " + (isActive && "active--tab")
+          "flex space-x-2 " + (isActive && "btn-active")
         }
       >
         <HomeIcon />
@@ -26,9 +26,7 @@ export const NavBar = () => {
 
       <NavLink
         to="/series"
-        className={({ isActive }) =>
-          "flex gap-3 " + (isActive && "active--tab")
-        }
+        className={({ isActive }) => "flex gap-3 " + (isActive && "btn-active")}
       >
         <SquareStackIcon />
         <span className="lg:block hidden font-semibold hover:text-slate-700">
@@ -37,9 +35,7 @@ export const NavBar = () => {
       </NavLink>
       <NavLink
         to={"/capitulos"}
-        className={({ isActive }) =>
-          "flex gap-3 " + (isActive && "active--tab")
-        }
+        className={({ isActive }) => "flex gap-3 " + (isActive && "btn-active")}
       >
         <RectangleStackIcon />
         <span className="lg:block hidden font-semibold hover:text-slate-700">

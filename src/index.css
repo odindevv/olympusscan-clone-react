@@ -6,11 +6,22 @@ body {
   @apply bg-slate-800;
 }
 
-.active--tab {
+.btn-active {
   @apply bg-yellow-500;
   @apply bg-opacity-50;
-  @apply px-2;
+  @apply px-4;
   @apply py-1;
   @apply rounded-full;
   @apply text-yellow-300;
+}
+
+.btn-noactive {
+  @apply px-4;
+  @apply py-2;
+  @apply border-2;
+  @apply border-gray-400/20;
+  @apply text-gray-400/90;
+  @apply rounded-full;
+  @apply hover:text-white;
+  @apply transition-all;
 }
