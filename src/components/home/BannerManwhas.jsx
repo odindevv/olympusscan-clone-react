@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const BannerManwhas = ({ data }) => {
   const manwhuaFilteredRecommended = data
@@ -7,9 +8,9 @@ export const BannerManwhas = ({ data }) => {
   return (
     <div className="gap-3 grid grid-cols-2 grid-rows-2 mt-2 max-h-[41rem] md:max-h-96 overflow-hidden">
       {manwhuaFilteredRecommended.map((item, index) => (
-        <a
+        <Link
           key={item.title}
-          href="#"
+          to={`/series/${item.slug}`}
           className={`relative rounded-md h-full ${
             index === 0
               ? "col-span-2 md:col-span-1 md:row-span-2 h-full lg:h-96"
@@ -29,7 +30,7 @@ export const BannerManwhas = ({ data }) => {
               </p>
             </div>
           </div>
-        </a>
+        </Link>
       ))}
     </div>
   );

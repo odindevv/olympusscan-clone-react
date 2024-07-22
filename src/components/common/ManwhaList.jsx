@@ -2,10 +2,9 @@ import React, { useEffect, useReducer } from "react";
 import { CardPoster } from "./CardPoster";
 import manwhasJSON from "../../data/manwhas.json";
 import { manwhasReducer } from "../../reducers/manwhasReducer";
-
-export const ManwhaList = ({ title, filter, data }) => {
+import { useLocation } from "react-router-dom";
+export const ManwhaList = ({ title, filter, path, data }) => {
   const [manwhas, dispatch] = useReducer(manwhasReducer, manwhasJSON);
-
   useEffect(() => {
     dispatch({ type: filter.toLowerCase() });
   }, [filter]);
@@ -32,6 +31,8 @@ export const ManwhaList = ({ title, filter, data }) => {
             title={manwha.title}
             poster={manwha.poster}
             status={manwha.status}
+            slug={manwha.slug}
+            path={path}
           />
         ))}
       </div>

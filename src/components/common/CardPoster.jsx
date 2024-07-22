@@ -1,8 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-export const CardPoster = ({ title, poster, status }) => {
+export const CardPoster = ({ title, poster, status, slug }) => {
+  const basePath = `/series/${slug}`;
   return (
-    <div className="relative bg-slate-950 rounded-md w-full h-[440px] cursor-pointer overflow-hidden">
+    <Link
+      to={basePath}
+      className="relative bg-slate-950 rounded-md w-full h-[440px] cursor-pointer overflow-hidden"
+    >
       <img
         src={poster}
         alt={title}
@@ -14,6 +19,6 @@ export const CardPoster = ({ title, poster, status }) => {
           {status}
         </span>
       </div>
-    </div>
+    </Link>
   );
 };

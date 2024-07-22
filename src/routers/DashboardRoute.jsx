@@ -5,6 +5,7 @@ import { CapitulosPage } from "../pages/CapitulosPage";
 import { HomePage } from "../pages/HomePage";
 import { Header } from "../components/common/Header";
 import { Footer } from "../components/common/Footer";
+import { ManwhaPage } from "../pages/ManwhaPage";
 
 export const DashboardRoute = () => {
   return (
@@ -15,6 +16,7 @@ export const DashboardRoute = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/series" element={<SeriesPage />} />
           <Route path="/capitulos" element={<CapitulosPage />} />
+          <Route path="/series/:serieSlug" element={<ManwhaPage />} />
           <Route path="/*" element={<HomePage />} />
         </Routes>
         <Footer />

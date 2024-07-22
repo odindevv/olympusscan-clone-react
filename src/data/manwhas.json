@@ -1,109 +1,135 @@
 [
   {
+    "id": 1234567,
     "title": "El hijo bastardo del marques era el emperador",
     "paragraph": "«¡Un emperador que murió injustamente se convierte en un desgraciado hijo bastardo!» Ian, un mago del Imperio de Bariel, se convirtió en emperador a una edad temprana, pero fue encarcelado debido a la rebelión de su sobrino. Sin embargo, fue salvado por el mago Naum utilizando magia espacio-temporal prohibida. Esta magia lleva al emperador Ian 100 años al pasado, donde posee al Bastardo Ian, el hijo ilegítimo de la familia Margrave que se extinguió hace 100 años. El bastardo Ian está a punto de ser tomado como rehén por los bárbaros. ¡¡¡Ian está a punto de verse envuelto en una sangrienta conspiración!!!",
     "poster": "poster/hijo-bastard-marques-poster.webp",
     "banner": "poster/banner-emperador-xl.webp",
     "status": "Activo",
     "views": 150,
-    "likes": 329
+    "likes": 329,
+    "slug": "El-hijo-bastardo-del-marques-era-el-emperador"
   },
   {
+    "id": 2345678,
     "title": "Inscripcion de mercenarios (El Asesino Yu Ijin)",
     "paragraph": "",
     "poster": "poster/asesino-yu-ijin-poster.webp",
     "banner": "poster/banermercenario-lg.webp",
     "status": "Activo",
     "views": 5000,
-    "likes": 785
+    "likes": 785,
+    "slug": "Inscripcion-de-mercenarios-El-Asesino-Yu-Ijin"
   },
   {
+    "id": 3456789,
     "title": "Guia de supervivencia del extra de la academia",
     "paragraph": "",
     "poster": "poster/guia-de-supervivencia-poster.webp",
     "banner": "poster/banner-guia1-lg.webp",
     "status": "Hiatus",
     "views": 12000,
-    "likes": 412
+    "likes": 412,
+    "slug": "Guia-de-supervivencia-del-extra-de-la-academia"
   },
   {
+    "id": 4567890,
     "title": "El brillante genio de la academia mágica",
     "status": "emisión",
     "paragraph": "",
     "views": 15000,
     "poster": "poster/blink.webp",
-    "likes": 603
+    "likes": 603,
+    "slug": "El-brillante-genio-de-la-academia-mágica"
   },
   {
+    "id": 5678901,
     "title": "El DESPERTAR DEL CHEF",
     "status": "finalizado",
     "paragraph": "",
     "views": 22000,
     "poster": "poster/despertar-cheft.webp",
-    "likes": 258
+    "likes": 258,
+    "slug": "El-DESPERTAR-DEL-CHEF"
   },
   {
+    "id": 6789012,
     "title": "Desperté como un Dios después de batallar en solitario durante un millón de años",
     "status": "hiatus",
     "paragraph": "",
     "views": 18000,
     "poster": "poster/desperte-como-un-dios.webp",
-    "likes": 479
+    "likes": 479,
+    "slug": "Desperte-como-un-Dios-después-de-batallar-en-solitario-durante-un-millón-de-años"
   },
   {
+    "id": 7890123,
     "title": "Haciendo travesuras en una transmisión en vivo, le propuse matrimonio a una fantasma femenino y ella realmente aceptó?!",
     "status": "emisión",
     "paragraph": "",
     "views": 13000,
     "poster": "poster/haciendo-travesuras.webp",
-    "likes": 934
+    "likes": 934,
+    "slug": "Haciendo-travesuras-en-una-transmisión-en-vivo-le-propuse-matrimonio-a-una-fantasma-femenino-y-ella-realmente-aceptó"
   },
   {
+    "id": 8901234,
     "title": "Me parezco demasiado al jefe y el mundo en realidad lo cree",
     "status": "finalizado",
     "paragraph": "",
     "views": 24000,
     "poster": "poster/me-parezco-demasiado-al-jefe.webp",
-    "likes": 382
+    "likes": 382,
+    "slug": "Me-parezco-demasiado-al-jefe-y-el-mundo-en-realidad-lo-cree"
   },
   {
+    "id": 9012345,
     "title": "Me convertí en un caballero con límite de tiempo",
     "status": "emisión",
     "paragraph": "",
     "views": 20000,
     "poster": "poster/caballero-xl.webp",
-    "likes": 520
+    "likes": 520,
+    "slug": "Me-convertí-en-un-caballero-con-límite-de-tiempo"
   },
   {
+    "id": 12345678,
     "title": "La evolución del nigromante",
     "status": "hiatus",
     "paragraph": "Makoto Kaneshiro, un antiguo miembro de las Fuerzas Especiales, ha estado pasando sus días inmerso en los videojuegos mientras luchaba por encontrar su lugar de nuevo en la sociedad. De repente, recibe una llamada inesperada. 'Makoto Kaneshiro, ¿eres tú?'. La persona que llama conoce al detalle la información personal y los hábitos de juego de Makoto. Tomado por sorpresa, Makoto intenta apagar su computadora, pero... para su desgracia, descubre que la misma situación se repite, una y otra vez.",
     "views": 12000,
     "poster": "poster/NIGROMANTE-xl.webp",
-    "likes": 615
+    "likes": 615,
+    "slug": "La-evolución-del-nigromante"
   },
   {
+    "id": 23456789,
     "title": "Rompiendo Límites",
     "status": "emisión",
     "paragraph": "",
     "views": 16000,
     "poster": "poster/rompiendo-limites.webp",
-    "likes": 471
+    "likes": 471,
+    "slug": "Rompiendo-Límites"
   },
   {
+    "id": 34567890,
     "title": "Jugador que regresó 10 000 años después",
     "status": "finalizado",
     "paragraph": "",
     "views": 21000,
     "poster": "poster/jugador-regreso-10000.webp",
-    "likes": 398
+    "likes": 398,
+    "slug": "Jugador-que-regresó-10-000-años-después"
   },
   {
+    "id": 45678901,
     "title": "El Guerrero Escolar Reencarnado",
     "status": "emisión",
     "paragraph": "",
     "views": 17000,
     "poster": "poster/guerrero-xl.webp",
-    "likes": 522
+    "likes": 522,
+    "slug": "El-Guerrero-Escolar-Reencarnado"
   }
 ]

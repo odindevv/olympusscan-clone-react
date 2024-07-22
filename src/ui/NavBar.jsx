@@ -6,11 +6,13 @@ import { SearchIcon } from "../icons/SearchIcon";
 import { UserIcon } from "../icons/UserIcon";
 import { NavLink } from "react-router-dom";
 
+// TODO: REMOVER SLASH A PATHS
+
 export const NavBar = () => {
   return (
     <nav className="flex justify-between items-center mx-auto p-4 md:w-[90%] text-slate-100">
       <NavLink to={"/"} className="md:block hidden">
-        <img src="olympus-logo-96.webp" alt="Olympus Logo" className="w-12" />
+        <img src="/olympus-logo-96.webp" alt="Olympus Logo" className="w-12" />
       </NavLink>
       <NavLink
         to={"/"}

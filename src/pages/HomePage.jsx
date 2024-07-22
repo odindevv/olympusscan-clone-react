@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { BannerManwhas } from "../components/home/BannerManwhas";
 import { ManwhaList } from "../components/common/ManwhaList";
 import { usePageTitle } from "../hooks/usePageTitle";
