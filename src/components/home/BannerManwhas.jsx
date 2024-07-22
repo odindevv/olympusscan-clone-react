@@ -1,9 +1,9 @@
 import React from "react";
 
-export const Recommended = ({ data }) => {
-  const manwhuaFilteredRecommended = data.filter((manwha) => manwha.banner);
-  console.log(manwhuaFilteredRecommended);
-  // const limitedRecommendations = data.slice(11, 14);
+export const BannerManwhas = ({ data }) => {
+  const manwhuaFilteredRecommended = data
+    .filter((manwha) => manwha.banner)
+    .slice(0, 3);
   return (
     <div className="gap-3 grid grid-cols-2 grid-rows-2 mt-2 max-h-[41rem] md:max-h-96 overflow-hidden">
       {manwhuaFilteredRecommended.map((item, index) => (

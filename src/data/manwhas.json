@@ -5,7 +5,8 @@
     "poster": "/poster/hijo-bastard-marques-poster.webp",
     "banner": "/poster/banner-emperador-xl.webp",
     "status": "Activo",
-    "views": 150
+    "views": 150,
+    "likes": 329
   },
   {
     "title": "Inscripcion de mercenarios (El Asesino Yu Ijin)",
@@ -13,7 +14,8 @@
     "poster": "/poster/asesino-yu-ijin-poster.webp",
     "banner": "/poster/banermercenario-lg.webp",
     "status": "Activo",
-    "views": 5000
+    "views": 5000,
+    "likes": 785
   },
   {
     "title": "Guia de supervivencia del extra de la academia",
@@ -21,76 +23,87 @@
     "poster": "/poster/guia-de-supervivencia-poster.webp",
     "banner": "/poster/banner-guia1-lg.webp",
     "status": "Hiatus",
-    "views": 12000
+    "views": 12000,
+    "likes": 412
   },
   {
     "title": "El brillante genio de la academia mágica",
     "status": "emisión",
     "paragraph": "",
     "views": 15000,
-    "poster": "/poster/blink.webp"
+    "poster": "/poster/blink.webp",
+    "likes": 603
   },
   {
     "title": "El DESPERTAR DEL CHEF",
     "status": "finalizado",
     "paragraph": "",
     "views": 22000,
-    "poster": "/poster/despertar-cheft.webp"
+    "poster": "/poster/despertar-cheft.webp",
+    "likes": 258
   },
   {
     "title": "Desperté como un Dios después de batallar en solitario durante un millón de años",
     "status": "hiatus",
     "paragraph": "",
     "views": 18000,
-    "poster": "/poster/desperte-como-un-dios.webp"
+    "poster": "/poster/desperte-como-un-dios.webp",
+    "likes": 479
   },
   {
     "title": "Haciendo travesuras en una transmisión en vivo, le propuse matrimonio a una fantasma femenino y ella realmente aceptó?!",
     "status": "emisión",
     "paragraph": "",
     "views": 13000,
-    "poster": "/poster/haciendo-travesuras.webp"
+    "poster": "/poster/haciendo-travesuras.webp",
+    "likes": 934
   },
   {
     "title": "Me parezco demasiado al jefe y el mundo en realidad lo cree",
     "status": "finalizado",
     "paragraph": "",
     "views": 24000,
-    "poster": "/poster/me-parezco-demasiado-al-jefe.webp"
+    "poster": "/poster/me-parezco-demasiado-al-jefe.webp",
+    "likes": 382
   },
   {
     "title": "Me convertí en un caballero con límite de tiempo",
     "status": "emisión",
     "paragraph": "",
     "views": 20000,
-    "poster": "/poster/caballero-xl.webp"
+    "poster": "/poster/caballero-xl.webp",
+    "likes": 520
   },
   {
     "title": "La evolución del nigromante",
     "status": "hiatus",
     "paragraph": "Makoto Kaneshiro, un antiguo miembro de las Fuerzas Especiales, ha estado pasando sus días inmerso en los videojuegos mientras luchaba por encontrar su lugar de nuevo en la sociedad. De repente, recibe una llamada inesperada. 'Makoto Kaneshiro, ¿eres tú?'. La persona que llama conoce al detalle la información personal y los hábitos de juego de Makoto. Tomado por sorpresa, Makoto intenta apagar su computadora, pero... para su desgracia, descubre que la misma situación se repite, una y otra vez.",
     "views": 12000,
-    "poster": "/poster/NIGROMANTE-xl.webp"
+    "poster": "/poster/NIGROMANTE-xl.webp",
+    "likes": 615
   },
   {
     "title": "Rompiendo Límites",
     "status": "emisión",
     "paragraph": "",
     "views": 16000,
-    "poster": "/poster/rompiendo-limites.webp"
+    "poster": "/poster/rompiendo-limites.webp",
+    "likes": 471
   },
   {
     "title": "Jugador que regresó 10 000 años después",
     "status": "finalizado",
     "paragraph": "",
     "views": 21000,
-    "poster": "/poster/jugador-regreso-10000.webp"
+    "poster": "/poster/jugador-regreso-10000.webp",
+    "likes": 398
   },
   {
     "title": "El Guerrero Escolar Reencarnado",
     "status": "emisión",
     "paragraph": "",
     "views": 17000,
-    "poster": "/poster/guerrero-xl.webp"
+    "poster": "/poster/guerrero-xl.webp",
+    "likes": 522
   }
 ]

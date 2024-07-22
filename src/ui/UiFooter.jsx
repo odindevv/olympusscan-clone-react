@@ -47,7 +47,11 @@ export const UiFooter = () => {
               <a href="#" className="w-8 h-8">
                 <PaypalIcon className="w-full h-full" />
               </a>
-              <a href="#" className="w-8 h-8">
+              <a
+                href="https://github.com/odindevv"
+                className="w-8 h-8"
+                target="BLANK"
+              >
                 <GithubIcon className="w-full h-full" />
               </a>
             </div>
