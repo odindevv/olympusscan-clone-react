@@ -3,7 +3,7 @@ import { UiFooter } from "../../ui/UiFooter";
 
 export const Footer = () => {
   return (
-    <footer className="mx-auto pb-4 w-full">
+    <footer className="mx-auto pb-8 w-full">
       <UiFooter />
     </footer>
   );

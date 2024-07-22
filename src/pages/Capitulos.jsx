@@ -3,7 +3,7 @@ import React from "react";
 export const Capitulos = () => {
   return (
     <>
-      <h1>Capitulos</h1>
+      <h1 className="text-sky-500">Capitulos</h1>
     </>
   );
 };

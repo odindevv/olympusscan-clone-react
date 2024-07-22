@@ -1,10 +1,12 @@
 import React from "react";
 
 export const Recommended = ({ data }) => {
-  const limitedRecommendations = data.slice(0, 3);
+  const manwhuaFilteredRecommended = data.filter((manwha) => manwha.banner);
+  console.log(manwhuaFilteredRecommended);
+  // const limitedRecommendations = data.slice(11, 14);
   return (
     <div className="gap-3 grid grid-cols-2 grid-rows-2 mt-2 max-h-[41rem] md:max-h-96 overflow-hidden">
-      {limitedRecommendations.map((item, index) => (
+      {manwhuaFilteredRecommended.map((item, index) => (
         <a
           key={item.title}
           href="#"
@@ -16,7 +18,7 @@ export const Recommended = ({ data }) => {
         >
           <div className="relative bg-slate-950 hover:bg-slate-600 bg-gradient-to-b from-transparent to-sky-300 rounded-md w-full h-full transition-all object-cover">
             <img
-              src={item.imagePath}
+              src={item.banner}
               alt=""
               className="opacity-70 w-full h-full object-cover"
             />

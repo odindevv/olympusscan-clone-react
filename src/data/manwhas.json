@@ -2,36 +2,95 @@
   {
     "title": "El hijo bastardo del marques era el emperador",
     "paragraph": "«¡Un emperador que murió injustamente se convierte en un desgraciado hijo bastardo!» Ian, un mago del Imperio de Bariel, se convirtió en emperador a una edad temprana, pero fue encarcelado debido a la rebelión de su sobrino. Sin embargo, fue salvado por el mago Naum utilizando magia espacio-temporal prohibida. Esta magia lleva al emperador Ian 100 años al pasado, donde posee al Bastardo Ian, el hijo ilegítimo de la familia Margrave que se extinguió hace 100 años. El bastardo Ian está a punto de ser tomado como rehén por los bárbaros. ¡¡¡Ian está a punto de verse envuelto en una sangrienta conspiración!!!",
-    "imagePath": "/poster/banner-emperador-xl.webp",
+    "poster": "/poster/hijo-bastard-marques-poster.webp",
+    "banner": "/poster/banner-emperador-xl.webp",
     "status": "Activo",
     "views": 150
   },
   {
     "title": "Inscripcion de mercenarios (El Asesino Yu Ijin)",
     "paragraph": "",
-    "imagePath": "/public/poster/banermercenario-lg.webp",
+    "poster": "/poster/asesino-yu-ijin-poster.webp",
+    "banner": "/poster/banermercenario-lg.webp",
     "status": "Activo",
     "views": 5000
   },
   {
     "title": "Guia de supervivencia del extra de la academia",
     "paragraph": "",
-    "imagePath": "/public/poster/banner-guia1-lg.webp",
+    "poster": "/poster/guia-de-supervivencia-poster.webp",
+    "banner": "/poster/banner-guia1-lg.webp",
     "status": "Hiatus",
     "views": 12000
   },
   {
-    "title": "Guia de supervivencia del extra de la academia",
+    "title": "El brillante genio de la academia mágica",
+    "status": "emisión",
     "paragraph": "",
-    "imagePath": "/public/poster/banner-guia1-lg.webp",
-    "status": "Finalizado",
-    "views": 8905
+    "views": 15000,
+    "poster": "/poster/blink.webp"
   },
   {
-    "title": "Guia de supervivencia del extra de la academia",
+    "title": "El DESPERTAR DEL CHEF",
+    "status": "finalizado",
     "paragraph": "",
-    "imagePath": "/public/poster/banner-guia1-lg.webp",
-    "status": "Activo",
-    "views": 1523
+    "views": 22000,
+    "poster": "/poster/despertar-cheft.webp"
+  },
+  {
+    "title": "Desperté como un Dios después de batallar en solitario durante un millón de años",
+    "status": "hiatus",
+    "paragraph": "",
+    "views": 18000,
+    "poster": "/poster/desperte-como-un-dios.webp"
+  },
+  {
+    "title": "Haciendo travesuras en una transmisión en vivo, le propuse matrimonio a una fantasma femenino y ella realmente aceptó?!",
+    "status": "emisión",
+    "paragraph": "",
+    "views": 13000,
+    "poster": "/poster/haciendo-travesuras.webp"
+  },
+  {
+    "title": "Me parezco demasiado al jefe y el mundo en realidad lo cree",
+    "status": "finalizado",
+    "paragraph": "",
+    "views": 24000,
+    "poster": "/poster/me-parezco-demasiado-al-jefe.webp"
+  },
+  {
+    "title": "Me convertí en un caballero con límite de tiempo",
+    "status": "emisión",
+    "paragraph": "",
+    "views": 20000,
+    "poster": "/poster/caballero-xl.webp"
+  },
+  {
+    "title": "La evolución del nigromante",
+    "status": "hiatus",
+    "paragraph": "Makoto Kaneshiro, un antiguo miembro de las Fuerzas Especiales, ha estado pasando sus días inmerso en los videojuegos mientras luchaba por encontrar su lugar de nuevo en la sociedad. De repente, recibe una llamada inesperada. 'Makoto Kaneshiro, ¿eres tú?'. La persona que llama conoce al detalle la información personal y los hábitos de juego de Makoto. Tomado por sorpresa, Makoto intenta apagar su computadora, pero... para su desgracia, descubre que la misma situación se repite, una y otra vez.",
+    "views": 12000,
+    "poster": "/poster/NIGROMANTE-xl.webp"
+  },
+  {
+    "title": "Rompiendo Límites",
+    "status": "emisión",
+    "paragraph": "",
+    "views": 16000,
+    "poster": "/poster/rompiendo-limites.webp"
+  },
+  {
+    "title": "Jugador que regresó 10 000 años después",
+    "status": "finalizado",
+    "paragraph": "",
+    "views": 21000,
+    "poster": "/poster/jugador-regreso-10000.webp"
+  },
+  {
+    "title": "El Guerrero Escolar Reencarnado",
+    "status": "emisión",
+    "paragraph": "",
+    "views": 17000,
+    "poster": "/poster/guerrero-xl.webp"
   }
 ]

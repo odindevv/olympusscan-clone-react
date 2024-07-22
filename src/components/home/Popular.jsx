@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "../common/Card";
 
 export const Popular = ({ data }) => {
-  const manwhas = data.slice(0, 4);
+  const manwhas = data.sort((a, b) => b.views - a.views).slice(0, 4);
   return (
     <div className="mt-16">
       <h1 className="font-semibold text-2xl text-white">Popular Del Dia</h1>
@@ -14,7 +14,7 @@ export const Popular = ({ data }) => {
           <Card
             key={manwha.title}
             title={manwha.title}
-            poster={manwha.imagePath}
+            poster={manwha.poster}
             status={manwha.status}
           />
         ))}
