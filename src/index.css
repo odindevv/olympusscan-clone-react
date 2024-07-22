@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-800;
+}
+
+.active--tab {
+  @apply bg-yellow-500;
+  @apply px-2;
+  @apply py-1;
+  @apply rounded-full;
+  @apply text-slate-950;
+}
