@@ -21,7 +21,7 @@ export const UiFooter = () => {
         <div className="flex lg:flex-row flex-col items-center lg:items-start lg:space-x-6 space-y-6 lg:space-y-0">
           <div className="flex-shrink-0">
             <img
-              src="/public/olympus-logo-96.webp"
+              src="olympus-logo-96.webp"
               alt="Olympus logo"
               className="border-8 border-slate-700 rounded-full w-24 h-24"
             />
