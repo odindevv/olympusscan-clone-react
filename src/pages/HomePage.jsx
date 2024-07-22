@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { BannerManwhas } from "../components/home/BannerManwhas";
 import { ManwhaList } from "../components/common/ManwhaList";
-import manwhas from "../data/manwhas.json";
 import { usePageTitle } from "../hooks/usePageTitle";
+import manwhas from "../data/manwhas.json";
 
 export const HomePage = () => {
   usePageTitle("Olympus Scanlation");

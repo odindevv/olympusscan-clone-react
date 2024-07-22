@@ -8,8 +8,9 @@ body {
 
 .active--tab {
   @apply bg-yellow-500;
+  @apply bg-opacity-50;
   @apply px-2;
   @apply py-1;
   @apply rounded-full;
-  @apply text-slate-950;
+  @apply text-yellow-300;
 }

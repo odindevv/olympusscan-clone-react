@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Card = ({ title, poster, status }) => {
+export const CardPoster = ({ title, poster, status }) => {
   return (
     <div className="relative bg-slate-950 rounded-md w-full h-[440px] cursor-pointer overflow-hidden">
       <img
@@ -10,7 +10,7 @@ export const Card = ({ title, poster, status }) => {
       />
       <div className="bottom-4 left-4 absolute flex flex-col text-white">
         <h1 className="font-semibold text-1xl">{title}</h1>
-        <span className="bg-slate-800 my-2 p-2 rounded w-max font-semibold capitalize">
+        <span className="bg-green-950/60 my-2 p-2 rounded w-max font-semibold capitalize">
           {status}
         </span>
       </div>

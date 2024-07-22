@@ -1,5 +1,5 @@
 import React, { useEffect, useReducer } from "react";
-import { Card } from "./Card";
+import { CardPoster } from "./CardPoster";
 import manwhasJSON from "../../data/manwhas.json";
 import { manwhasReducer } from "../../reducers/manwhasReducer";
 
@@ -27,7 +27,7 @@ export const ManwhaList = ({ title, filter, data }) => {
 
       <div className="gap-4 grid grid-cols-2 md:grid-cols-4 mt-10">
         {manwhas.map((manwha) => (
-          <Card
+          <CardPoster
             key={manwha.title}
             title={manwha.title}
             poster={manwha.poster}
